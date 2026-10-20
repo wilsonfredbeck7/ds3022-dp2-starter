@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: stg_fragments
+    columns:
+      - name: order_no
+        data_tests: [not_null, unique]
+      - name: word
+        data_tests: [not_null]
