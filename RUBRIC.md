@@ -96,7 +96,7 @@ Three things worth noticing before you plan your time:
 | 4.5 | **"Chaos round" section**: what broke, why, and how you fixed it | 4 | README section | Y | |
 | 4.6 | **Tool roles**: what Prefect, dbt and DuckDB each do in this pipeline, and what you would lose by dropping one | 2 | README section | Y | |
 | 4.7 | **Results shown**: dashboard screenshot, dbt output, receipt code | 2 | Screenshots and receipt in the README | Y | |
-| 4.8 | **Repository hygiene**: a fork of the assignment repo; no `.env`, `*.duckdb`, `dbt/target/` or log files committed; `kit/` unmodified | 3 | Repo page and file list | P | |
+| 4.8 | **Repository hygiene**: a fork of the assignment repo; no `.env`, `*.duckdb`, `dbt/target/` or log files committed; `kit/` unmodified | 3 | Repo page and file list | Y | |
 
 **Subtotal: ___ / 25**
 
