@@ -89,13 +89,13 @@ Three things worth noticing before you plan your time:
 
 | # | Requirement | Pts | Evidence to look for | Self | Score |
 |---|---|---:|---|:--:|:--:|
-| 4.1 | **Setup and run instructions** that work from a fresh clone (emulator, scatter API, `.env`, run command) | 5 | The grader follows your README alone | | |
+| 4.1 | **Setup and run instructions** that work from a fresh clone (emulator, scatter API, `.env`, run command) | 5 | The grader follows your README alone | Y | |
 | 4.2 | **Architecture / DAG diagram** with task boundaries and dependencies | 3 | `docs/dag.jpg` (or similar) referenced in the README | Y | |
-| 4.3 | **Polling strategy justified**: what you chose, why, and what you rejected | 3 | README section | | |
-| 4.4 | **Receive → persist → delete** order and idempotency explained (what happens if the flow crashes between steps) | 3 | README section | | |
-| 4.5 | **"Chaos round" section**: what broke, why, and how you fixed it | 4 | README section | | |
-| 4.6 | **Tool roles**: what Prefect, dbt and DuckDB each do in this pipeline, and what you would lose by dropping one | 2 | README section | | |
-| 4.7 | **Results shown**: dashboard screenshot, dbt output, receipt code | 2 | Screenshots and receipt in the README | | |
+| 4.3 | **Polling strategy justified**: what you chose, why, and what you rejected | 3 | README section | Y | |
+| 4.4 | **Receive → persist → delete** order and idempotency explained (what happens if the flow crashes between steps) | 3 | README section | Y | |
+| 4.5 | **"Chaos round" section**: what broke, why, and how you fixed it | 4 | README section | Y | |
+| 4.6 | **Tool roles**: what Prefect, dbt and DuckDB each do in this pipeline, and what you would lose by dropping one | 2 | README section | Y | |
+| 4.7 | **Results shown**: dashboard screenshot, dbt output, receipt code | 2 | Screenshots and receipt in the README | Y | |
 | 4.8 | **Repository hygiene**: a fork of the assignment repo; no `.env`, `*.duckdb`, `dbt/target/` or log files committed; `kit/` unmodified | 3 | Repo page and file list | P | |
 
 **Subtotal: ___ / 25**
